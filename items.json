@@ -1,0 +1,7 @@
+[
+  { "categoryId": 1, "items": ["Shoes", "Sandals", "Slippers"] },
+  { "categoryId": 2, "items": ["Shirts", "T-shirts", "Jeans"] },
+  { "categoryId": 3, "items": ["TV", "Laptop", "Headphones"] },
+  { "categoryId": 4, "items": ["iPhone", "Samsung", "OnePlus"] },
+  { "categoryId": 5, "items": ["Sofa", "Chair", "Table"] }
+]
