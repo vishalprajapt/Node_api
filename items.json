@@ -1,7 +1,1217 @@
 [
-  { "categoryId": 1, "items": ["Shoes", "Sandals", "Slippers"] },
-  { "categoryId": 2, "items": ["Shirts", "T-shirts", "Jeans"] },
-  { "categoryId": 3, "items": ["TV", "Laptop", "Headphones"] },
-  { "categoryId": 4, "items": ["iPhone", "Samsung", "OnePlus"] },
-  { "categoryId": 5, "items": ["Sofa", "Chair", "Table","bad"] }
+  { "categoryId": 1, "items": [
+  {
+    "id": 1,
+    "title": "Men's Running Shoes",
+    "name": "UltraFlex Runner",
+    "image": "https://example.com/footwear/shoe1.jpg",
+    "images": [
+      "https://example.com/footwear/shoe1_1.jpg",
+      "https://example.com/footwear/shoe1_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 2499
+  },
+  {
+    "id": 2,
+    "title": "Women's Casual Sneakers",
+    "name": "StreetStyle Sneaker",
+    "image": "https://example.com/footwear/shoe2.jpg",
+    "images": [
+      "https://example.com/footwear/shoe2_1.jpg",
+      "https://example.com/footwear/shoe2_2.jpg"
+    ],
+    "rating": 4.2,
+    "price": 1999
+  },
+  {
+    "id": 3,
+    "title": "Men's Leather Formal Shoes",
+    "name": "Classic Oxford",
+    "image": "https://example.com/footwear/shoe3.jpg",
+    "images": [
+      "https://example.com/footwear/shoe3_1.jpg",
+      "https://example.com/footwear/shoe3_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 3299
+  },
+  {
+    "id": 4,
+    "title": "Women's Heels",
+    "name": "Crystal Glam Heels",
+    "image": "https://example.com/footwear/shoe4.jpg",
+    "images": [
+      "https://example.com/footwear/shoe4_1.jpg",
+      "https://example.com/footwear/shoe4_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 1799
+  },
+  {
+    "id": 5,
+    "title": "Men's Sports Shoes",
+    "name": "ProActive Sport",
+    "image": "https://example.com/footwear/shoe5.jpg",
+    "images": [
+      "https://example.com/footwear/shoe5_1.jpg",
+      "https://example.com/footwear/shoe5_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 2899
+  },
+  {
+    "id": 6,
+    "title": "Women's Flats",
+    "name": "Comfort Everyday Flats",
+    "image": "https://example.com/footwear/shoe6.jpg",
+    "images": [
+      "https://example.com/footwear/shoe6_1.jpg",
+      "https://example.com/footwear/shoe6_2.jpg"
+    ],
+    "rating": 4.1,
+    "price": 899
+  },
+  {
+    "id": 7,
+    "title": "Men's Sandals",
+    "name": "TrailGrip Sandals",
+    "image": "https://example.com/footwear/shoe7.jpg",
+    "images": [
+      "https://example.com/footwear/shoe7_1.jpg",
+      "https://example.com/footwear/shoe7_2.jpg"
+    ],
+    "rating": 4.0,
+    "price": 1299
+  },
+  {
+    "id": 8,
+    "title": "Women's Sports Shoes",
+    "name": "SwiftRunner",
+    "image": "https://example.com/footwear/shoe8.jpg",
+    "images": [
+      "https://example.com/footwear/shoe8_1.jpg",
+      "https://example.com/footwear/shoe8_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 2599
+  },
+  {
+    "id": 9,
+    "title": "Men's Loafers",
+    "name": "Classic Loafers",
+    "image": "https://example.com/footwear/shoe9.jpg",
+    "images": [
+      "https://example.com/footwear/shoe9_1.jpg",
+      "https://example.com/footwear/shoe9_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 2199
+  },
+  {
+    "id": 10,
+    "title": "Women's Boots",
+    "name": "Urban Leather Boots",
+    "image": "https://example.com/footwear/shoe10.jpg",
+    "images": [
+      "https://example.com/footwear/shoe10_1.jpg",
+      "https://example.com/footwear/shoe10_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 3499
+  },
+  {
+    "id": 11,
+    "title": "Men's Slippers",
+    "name": "SoftWalk Slippers",
+    "image": "https://example.com/footwear/shoe11.jpg",
+    "images": [
+      "https://example.com/footwear/shoe11_1.jpg",
+      "https://example.com/footwear/shoe11_2.jpg"
+    ],
+    "rating": 4.1,
+    "price": 499
+  },
+  {
+    "id": 12,
+    "title": "Women's Sandals",
+    "name": "Elegant Strap Sandals",
+    "image": "https://example.com/footwear/shoe12.jpg",
+    "images": [
+      "https://example.com/footwear/shoe12_1.jpg",
+      "https://example.com/footwear/shoe12_2.jpg"
+    ],
+    "rating": 4.2,
+    "price": 1199
+  },
+  {
+    "id": 13,
+    "title": "Men's Sneakers",
+    "name": "Urban Street Sneakers",
+    "image": "https://example.com/footwear/shoe13.jpg",
+    "images": [
+      "https://example.com/footwear/shoe13_1.jpg",
+      "https://example.com/footwear/shoe13_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 2799
+  },
+  {
+    "id": 14,
+    "title": "Women's Slip-ons",
+    "name": "Comfort Slip-on Shoes",
+    "image": "https://example.com/footwear/shoe14.jpg",
+    "images": [
+      "https://example.com/footwear/shoe14_1.jpg",
+      "https://example.com/footwear/shoe14_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 1450
+  },
+  {
+    "id": 15,
+    "title": "Men's Trekking Shoes",
+    "name": "Mountain Trek Pro",
+    "image": "https://example.com/footwear/shoe15.jpg",
+    "images": [
+      "https://example.com/footwear/shoe15_1.jpg",
+      "https://example.com/footwear/shoe15_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 3999
+  },
+  {
+    "id": 16,
+    "title": "Women's Ballet Flats",
+    "name": "Soft Ballet Shoes",
+    "image": "https://example.com/footwear/shoe16.jpg",
+    "images": [
+      "https://example.com/footwear/shoe16_1.jpg",
+      "https://example.com/footwear/shoe16_2.jpg"
+    ],
+    "rating": 4.2,
+    "price": 999
+  },
+  {
+    "id": 17,
+    "title": "Men's Leather Boots",
+    "name": "Rugged Leather Boot",
+    "image": "https://example.com/footwear/shoe17.jpg",
+    "images": [
+      "https://example.com/footwear/shoe17_1.jpg",
+      "https://example.com/footwear/shoe17_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 4499
+  },
+  {
+    "id": 18,
+    "title": "Women's Platform Heels",
+    "name": "GlamPlatform Heels",
+    "image": "https://example.com/footwear/shoe18.jpg",
+    "images": [
+      "https://example.com/footwear/shoe18_1.jpg",
+      "https://example.com/footwear/shoe18_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 1899
+  },
+  {
+    "id": 19,
+    "title": "Men's Flip Flops",
+    "name": "BeachWalk Flip Flop",
+    "image": "https://example.com/footwear/shoe19.jpg",
+    "images": [
+      "https://example.com/footwear/shoe19_1.jpg",
+      "https://example.com/footwear/shoe19_2.jpg"
+    ],
+    "rating": 4.0,
+    "price": 399
+  },
+  {
+    "id": 20,
+    "title": "Women's Running Shoes",
+    "name": "LightRun Flex",
+    "image": "https://example.com/footwear/shoe20.jpg",
+    "images": [
+      "https://example.com/footwear/shoe20_1.jpg",
+      "https://example.com/footwear/shoe20_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 2399
+  }
+]
+ },
+  { "categoryId": 2, "items":[
+  {
+    "id": 1,
+    "title": "Men's Casual T-Shirt",
+    "name": "Urban Classic Tee",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    ],
+    "rating": 4.5,
+    "price": 499
+  },
+  {
+    "id": 2,
+    "title": "Men's Denim Jacket",
+    "name": "Blue Denim Rider",
+    "image": "https://images.unsplash.com/photo-1530845640031-56d8be5f72d3",
+    "images": [
+      "https://images.unsplash.com/photo-1530845640031-56d8be5f72d3",
+      "https://images.unsplash.com/photo-1520975730476-36450f8a8f80"
+    ],
+    "rating": 4.7,
+    "price": 1999
+  },
+  {
+    "id": 3,
+    "title": "Women's Summer Dress",
+    "name": "Floral Breeze Dress",
+    "image": "https://images.unsplash.com/photo-1520975594686-4d8ecf77b8fe",
+    "images": [
+      "https://images.unsplash.com/photo-1520975594686-4d8ecf77b8fe",
+      "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f"
+    ],
+    "rating": 4.4,
+    "price": 1499
+  },
+  {
+    "id": 4,
+    "title": "Men's Hooded Sweatshirt",
+    "name": "Winter Warm Hoodie",
+    "image": "https://images.unsplash.com/photo-1503342452485-86a5d56a5585",
+    "images": [
+      "https://images.unsplash.com/photo-1503342452485-86a5d56a5585",
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+    ],
+    "rating": 4.6,
+    "price": 1299
+  },
+  {
+    "id": 5,
+    "title": "Women's Crop Top",
+    "name": "Street Style Crop",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d"
+    ],
+    "rating": 4.3,
+    "price": 699
+  },
+  {
+    "id": 6,
+    "title": "Men's Formal Shirt",
+    "name": "Classic Office Shirt",
+    "image": "https://images.unsplash.com/photo-1593032457861-7d9a1a93a376",
+    "images": [
+      "https://images.unsplash.com/photo-1593032457861-7d9a1a93a376",
+      "https://images.unsplash.com/photo-1589984663980-7c1de39da7cd"
+    ],
+    "rating": 4.5,
+    "price": 899
+  },
+  {
+    "id": 7,
+    "title": "Men's Jogger Pants",
+    "name": "Comfort Fit Joggers",
+    "image": "https://images.unsplash.com/photo-1602810319581-04c85d3a5bb1",
+    "images": [
+      "https://images.unsplash.com/photo-1602810319581-04c85d3a5bb1",
+      "https://images.unsplash.com/photo-1602810319445-612dacf7d500"
+    ],
+    "rating": 4.4,
+    "price": 799
+  },
+  {
+    "id": 8,
+    "title": "Women's Hoodie",
+    "name": "Cozy Pink Hoodie",
+    "image": "https://images.unsplash.com/photo-1537832816519-689ad163238b",
+    "images": [
+      "https://images.unsplash.com/photo-1537832816519-689ad163238b",
+      "https://images.unsplash.com/photo-1595436967198-c994188f7032"
+    ],
+    "rating": 4.6,
+    "price": 1199
+  },
+  {
+    "id": 9,
+    "title": "Men's Sports T-Shirt",
+    "name": "Active DryFit Tee",
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f56",
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f56",
+      "https://images.unsplash.com/photo-1584382296080-e3e18f6d94f2"
+    ],
+    "rating": 4.3,
+    "price": 599
+  },
+  {
+    "id": 10,
+    "title": "Women's Jeans",
+    "name": "Slim Fit Blue Jeans",
+    "image": "https://images.unsplash.com/photo-1495121605193-b116b5b09a60",
+    "images": [
+      "https://images.unsplash.com/photo-1495121605193-b116b5b09a60",
+      "https://images.unsplash.com/photo-1503342455072-733f17b0ed63"
+    ],
+    "rating": 4.5,
+    "price": 1299
+  },
+  {
+    "id": 11,
+    "title": "Men's Leather Jacket",
+    "name": "Brown Rider Jacket",
+    "image": "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+    "images": [
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+      "https://images.unsplash.com/photo-1551537482-f2075a262b85"
+    ],
+    "rating": 4.8,
+    "price": 3499
+  },
+  {
+    "id": 12,
+    "title": "Women's Ethnic Kurti",
+    "name": "Floral Printed Kurti",
+    "image": "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b",
+    "images": [
+      "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b",
+      "https://images.unsplash.com/photo-1588776814546-1ff0d8b85302"
+    ],
+    "rating": 4.4,
+    "price": 899
+  },
+  {
+    "id": 13,
+    "title": "Men's Shorts",
+    "name": "Casual Summer Shorts",
+    "image": "https://images.unsplash.com/photo-1605738167920-2613df6cbb89",
+    "images": [
+      "https://images.unsplash.com/photo-1605738167920-2613df6cbb89",
+      "https://images.unsplash.com/photo-1585386959984-a415522f0d14"
+    ],
+    "rating": 4.2,
+    "price": 499
+  },
+  {
+    "id": 14,
+    "title": "Women's Winter Jacket",
+    "name": "SnowWarm Puffer",
+    "image": "https://images.unsplash.com/photo-1533859583213-c4e1e86c4624",
+    "images": [
+      "https://images.unsplash.com/photo-1533859583213-c4e1e86c4624",
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f"
+    ],
+    "rating": 4.7,
+    "price": 2499
+  },
+  {
+    "id": 15,
+    "title": "Men's Polo Shirt",
+    "name": "Classic Polo Tee",
+    "image": "https://images.unsplash.com/photo-1602810319581-04c85d3a5bb1",
+    "images": [
+      "https://images.unsplash.com/photo-1602810319581-04c85d3a5bb1",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+    ],
+    "rating": 4.4,
+    "price": 799
+  },
+  {
+    "id": 16,
+    "title": "Women's Leggings",
+    "name": "Stretch Fit Leggings",
+    "image": "https://images.unsplash.com/photo-1597839219216-bde3c17449e5",
+    "images": [
+      "https://images.unsplash.com/photo-1597839219216-bde3c17449e5",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f56"
+    ],
+    "rating": 4.5,
+    "price": 599
+  },
+  {
+    "id": 17,
+    "title": "Men's Track Suit",
+    "name": "Sporty Track Set",
+    "image": "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b",
+    "images": [
+      "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b",
+      "https://images.unsplash.com/photo-1589984438673-fbbf5bb5a378"
+    ],
+    "rating": 4.3,
+    "price": 1499
+  },
+  {
+    "id": 18,
+    "title": "Women's Top",
+    "name": "Elegant Casual Top",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f",
+      "https://images.unsplash.com/photo-1520975345078-3f72a5d97f30"
+    ],
+    "rating": 4.4,
+    "price": 699
+  },
+  {
+    "id": 19,
+    "title": "Men's Kurta",
+    "name": "Premium Cotton Kurta",
+    "image": "https://images.unsplash.com/photo-1588776814546-1ff0d8b85302",
+    "images": [
+      "https://images.unsplash.com/photo-1588776814546-1ff0d8b85302",
+      "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b"
+    ],
+    "rating": 4.6,
+    "price": 999
+  },
+  {
+    "id": 20,
+    "title": "Women's Saree",
+    "name": "Designer Silk Saree",
+    "image": "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b",
+    "images": [
+      "https://images.unsplash.com/photo-1594633313593-b2cb9d7c1f5b",
+      "https://images.unsplash.com/photo-1585386959984-a415522f0d14"
+    ],
+    "rating": 4.7,
+    "price": 2999
+  }
+]
+ },
+  { "categoryId": 3, "items": [
+  {
+    "id": 1,
+    "title": "Smart LED TV",
+    "name": "UltraView 43-inch Smart TV",
+    "image": "https://example.com/electronics/tv1.jpg",
+    "images": [
+      "https://example.com/electronics/tv1_1.jpg",
+      "https://example.com/electronics/tv1_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 23999
+  },
+  {
+    "id": 2,
+    "title": "Smart LED TV",
+    "name": "VisionX 55-inch 4K TV",
+    "image": "https://example.com/electronics/tv2.jpg",
+    "images": [
+      "https://example.com/electronics/tv2_1.jpg",
+      "https://example.com/electronics/tv2_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 42999
+  },
+  {
+    "id": 3,
+    "title": "Laptop",
+    "name": "ProBook Slim 14",
+    "image": "https://example.com/electronics/laptop1.jpg",
+    "images": [
+      "https://example.com/electronics/laptop1_1.jpg",
+      "https://example.com/electronics/laptop1_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 56999
+  },
+  {
+    "id": 4,
+    "title": "Laptop",
+    "name": "TechMate Gaming Laptop",
+    "image": "https://example.com/electronics/laptop2.jpg",
+    "images": [
+      "https://example.com/electronics/laptop2_1.jpg",
+      "https://example.com/electronics/laptop2_2.jpg"
+    ],
+    "rating": 4.8,
+    "price": 79999
+  },
+  {
+    "id": 5,
+    "title": "Mobile Phone",
+    "name": "SmartX 5G",
+    "image": "https://example.com/electronics/phone1.jpg",
+    "images": [
+      "https://example.com/electronics/phone1_1.jpg",
+      "https://example.com/electronics/phone1_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 19999
+  },
+  {
+    "id": 6,
+    "title": "Mobile Phone",
+    "name": "MegaPixel Pro",
+    "image": "https://example.com/electronics/phone2.jpg",
+    "images": [
+      "https://example.com/electronics/phone2_1.jpg",
+      "https://example.com/electronics/phone2_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 16999
+  },
+  {
+    "id": 7,
+    "title": "Headphones",
+    "name": "BassBoost Wireless",
+    "image": "https://example.com/electronics/headphone1.jpg",
+    "images": [
+      "https://example.com/electronics/headphone1_1.jpg",
+      "https://example.com/electronics/headphone1_2.jpg"
+    ],
+    "rating": 4.2,
+    "price": 2499
+  },
+  {
+    "id": 8,
+    "title": "Headphones",
+    "name": "NoiseX ANC Headphones",
+    "image": "https://example.com/electronics/headphone2.jpg",
+    "images": [
+      "https://example.com/electronics/headphone2_1.jpg",
+      "https://example.com/electronics/headphone2_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 4999
+  },
+  {
+    "id": 9,
+    "title": "Bluetooth Speaker",
+    "name": "SoundBlast Mini",
+    "image": "https://example.com/electronics/speaker1.jpg",
+    "images": [
+      "https://example.com/electronics/speaker1_1.jpg",
+      "https://example.com/electronics/speaker1_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 1599
+  },
+  {
+    "id": 10,
+    "title": "Bluetooth Speaker",
+    "name": "BoomBox 360",
+    "image": "https://example.com/electronics/speaker2.jpg",
+    "images": [
+      "https://example.com/electronics/speaker2_1.jpg",
+      "https://example.com/electronics/speaker2_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 3299
+  },
+  {
+    "id": 11,
+    "title": "Smartwatch",
+    "name": "FitTrack Pro",
+    "image": "https://example.com/electronics/watch1.jpg",
+    "images": [
+      "https://example.com/electronics/watch1_1.jpg",
+      "https://example.com/electronics/watch1_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 3499
+  },
+  {
+    "id": 12,
+    "title": "Smartwatch",
+    "name": "ActivePulse Watch",
+    "image": "https://example.com/electronics/watch2.jpg",
+    "images": [
+      "https://example.com/electronics/watch2_1.jpg",
+      "https://example.com/electronics/watch2_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 4999
+  },
+  {
+    "id": 13,
+    "title": "Camera",
+    "name": "ProShot DSLR",
+    "image": "https://example.com/electronics/camera1.jpg",
+    "images": [
+      "https://example.com/electronics/camera1_1.jpg",
+      "https://example.com/electronics/camera1_2.jpg"
+    ],
+    "rating": 4.8,
+    "price": 55999
+  },
+  {
+    "id": 14,
+    "title": "Camera",
+    "name": "ZoomLite Mirrorless",
+    "image": "https://example.com/electronics/camera2.jpg",
+    "images": [
+      "https://example.com/electronics/camera2_1.jpg",
+      "https://example.com/electronics/camera2_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 68999
+  },
+  {
+    "id": 15,
+    "title": "Tablet",
+    "name": "TabPlus 10.1",
+    "image": "https://example.com/electronics/tablet1.jpg",
+    "images": [
+      "https://example.com/electronics/tablet1_1.jpg",
+      "https://example.com/electronics/tablet1_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 15999
+  },
+  {
+    "id": 16,
+    "title": "Tablet",
+    "name": "MegaTab Pro",
+    "image": "https://example.com/electronics/tablet2.jpg",
+    "images": [
+      "https://example.com/electronics/tablet2_1.jpg",
+      "https://example.com/electronics/tablet2_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 24999
+  },
+  {
+    "id": 17,
+    "title": "Refrigerator",
+    "name": "CoolTech 265L",
+    "image": "https://example.com/electronics/fridge1.jpg",
+    "images": [
+      "https://example.com/electronics/fridge1_1.jpg",
+      "https://example.com/electronics/fridge1_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 29999
+  },
+  {
+    "id": 18,
+    "title": "Washing Machine",
+    "name": "WashMaster 7kg",
+    "image": "https://example.com/electronics/wash1.jpg",
+    "images": [
+      "https://example.com/electronics/wash1_1.jpg",
+      "https://example.com/electronics/wash1_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 20999
+  },
+  {
+    "id": 19,
+    "title": "Air Conditioner",
+    "name": "CoolBreeze 1.5 Ton",
+    "image": "https://example.com/electronics/ac1.jpg",
+    "images": [
+      "https://example.com/electronics/ac1_1.jpg",
+      "https://example.com/electronics/ac1_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 34999
+  },
+  {
+    "id": 20,
+    "title": "Microwave Oven",
+    "name": "HeatWave 28L",
+    "image": "https://example.com/electronics/micro1.jpg",
+    "images": [
+      "https://example.com/electronics/micro1_1.jpg",
+      "https://example.com/electronics/micro1_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 8999
+  }
+]
+ },
+  { "categoryId": 4, "items": [
+  {
+    "id": 1,
+    "title": "iPhone 15 Pro",
+    "name": "Apple iPhone 15 Pro",
+    "image": "https://example.com/phones/iphone15pro.jpg",
+    "images": [
+      "https://example.com/phones/iphone15pro_1.jpg",
+      "https://example.com/phones/iphone15pro_2.jpg"
+    ],
+    "rating": 4.8,
+    "price": 129999
+  },
+  {
+    "id": 2,
+    "title": "iPhone 15",
+    "name": "Apple iPhone 15",
+    "image": "https://example.com/phones/iphone15.jpg",
+    "images": [
+      "https://example.com/phones/iphone15_1.jpg",
+      "https://example.com/phones/iphone15_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 109999
+  },
+  {
+    "id": 3,
+    "title": "Samsung Galaxy S23 Ultra",
+    "name": "Samsung Galaxy S23 Ultra",
+    "image": "https://example.com/phones/samsung_s23ultra.jpg",
+    "images": [
+      "https://example.com/phones/samsung_s23ultra_1.jpg",
+      "https://example.com/phones/samsung_s23ultra_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 119999
+  },
+  {
+    "id": 4,
+    "title": "Samsung Galaxy S23",
+    "name": "Samsung Galaxy S23",
+    "image": "https://example.com/phones/samsung_s23.jpg",
+    "images": [
+      "https://example.com/phones/samsung_s23_1.jpg",
+      "https://example.com/phones/samsung_s23_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 89999
+  },
+  {
+    "id": 5,
+    "title": "OnePlus 11",
+    "name": "OnePlus 11 Pro",
+    "image": "https://example.com/phones/oneplus11.jpg",
+    "images": [
+      "https://example.com/phones/oneplus11_1.jpg",
+      "https://example.com/phones/oneplus11_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 69999
+  },
+  {
+    "id": 6,
+    "title": "OnePlus Nord 3",
+    "name": "OnePlus Nord 3",
+    "image": "https://example.com/phones/oneplusnord3.jpg",
+    "images": [
+      "https://example.com/phones/oneplusnord3_1.jpg",
+      "https://example.com/phones/oneplusnord3_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 29999
+  },
+  {
+    "id": 7,
+    "title": "Xiaomi 13 Pro",
+    "name": "Xiaomi 13 Pro",
+    "image": "https://example.com/phones/xiaomi13pro.jpg",
+    "images": [
+      "https://example.com/phones/xiaomi13pro_1.jpg",
+      "https://example.com/phones/xiaomi13pro_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 59999
+  },
+  {
+    "id": 8,
+    "title": "Xiaomi 13",
+    "name": "Xiaomi 13",
+    "image": "https://example.com/phones/xiaomi13.jpg",
+    "images": [
+      "https://example.com/phones/xiaomi13_1.jpg",
+      "https://example.com/phones/xiaomi13_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 44999
+  },
+  {
+    "id": 9,
+    "title": "Google Pixel 8 Pro",
+    "name": "Google Pixel 8 Pro",
+    "image": "https://example.com/phones/pixel8pro.jpg",
+    "images": [
+      "https://example.com/phones/pixel8pro_1.jpg",
+      "https://example.com/phones/pixel8pro_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 79999
+  },
+  {
+    "id": 10,
+    "title": "Google Pixel 8",
+    "name": "Google Pixel 8",
+    "image": "https://example.com/phones/pixel8.jpg",
+    "images": [
+      "https://example.com/phones/pixel8_1.jpg",
+      "https://example.com/phones/pixel8_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 59999
+  },
+  {
+    "id": 11,
+    "title": "iPhone SE 2024",
+    "name": "Apple iPhone SE",
+    "image": "https://example.com/phones/iphonese2024.jpg",
+    "images": [
+      "https://example.com/phones/iphonese2024_1.jpg",
+      "https://example.com/phones/iphonese2024_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 44999
+  },
+  {
+    "id": 12,
+    "title": "Samsung Galaxy A54",
+    "name": "Samsung Galaxy A54",
+    "image": "https://example.com/phones/samsung_a54.jpg",
+    "images": [
+      "https://example.com/phones/samsung_a54_1.jpg",
+      "https://example.com/phones/samsung_a54_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 26999
+  },
+  {
+    "id": 13,
+    "title": "OnePlus 10T",
+    "name": "OnePlus 10T",
+    "image": "https://example.com/phones/oneplus10t.jpg",
+    "images": [
+      "https://example.com/phones/oneplus10t_1.jpg",
+      "https://example.com/phones/oneplus10t_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 49999
+  },
+  {
+    "id": 14,
+    "title": "Samsung Galaxy Z Fold 5",
+    "name": "Samsung Fold 5",
+    "image": "https://example.com/phones/galaxyfold5.jpg",
+    "images": [
+      "https://example.com/phones/galaxyfold5_1.jpg",
+      "https://example.com/phones/galaxyfold5_2.jpg"
+    ],
+    "rating": 4.7,
+    "price": 169999
+  },
+  {
+    "id": 15,
+    "title": "iPhone 14 Plus",
+    "name": "Apple iPhone 14 Plus",
+    "image": "https://example.com/phones/iphone14plus.jpg",
+    "images": [
+      "https://example.com/phones/iphone14plus_1.jpg",
+      "https://example.com/phones/iphone14plus_2.jpg"
+    ],
+    "rating": 4.6,
+    "price": 99999
+  },
+  {
+    "id": 16,
+    "title": "OnePlus Nord CE 3",
+    "name": "OnePlus Nord CE 3",
+    "image": "https://example.com/phones/nordce3.jpg",
+    "images": [
+      "https://example.com/phones/nordce3_1.jpg",
+      "https://example.com/phones/nordce3_2.jpg"
+    ],
+    "rating": 4.2,
+    "price": 23999
+  },
+  {
+    "id": 17,
+    "title": "Xiaomi Redmi Note 13 Pro",
+    "name": "Redmi Note 13 Pro",
+    "image": "https://example.com/phones/redminote13pro.jpg",
+    "images": [
+      "https://example.com/phones/redminote13pro_1.jpg",
+      "https://example.com/phones/redminote13pro_2.jpg"
+    ],
+    "rating": 4.3,
+    "price": 20999
+  },
+  {
+    "id": 18,
+    "title": "Google Pixel 7a",
+    "name": "Google Pixel 7a",
+    "image": "https://example.com/phones/pixel7a.jpg",
+    "images": [
+      "https://example.com/phones/pixel7a_1.jpg",
+      "https://example.com/phones/pixel7a_2.jpg"
+    ],
+    "rating": 4.4,
+    "price": 34999
+  },
+  {
+    "id": 19,
+    "title": "Samsung Galaxy M14",
+    "name": "Samsung Galaxy M14",
+    "image": "https://example.com/phones/galaxym14.jpg",
+    "images": [
+      "https://example.com/phones/galaxym14_1.jpg",
+      "https://example.com/phones/galaxym14_2.jpg"
+    ],
+    "rating": 4.1,
+    "price": 12499
+  },
+  {
+    "id": 20,
+    "title": "iPhone 13 Mini",
+    "name": "Apple iPhone 13 Mini",
+    "image": "https://example.com/phones/iphone13mini.jpg",
+    "images": [
+      "https://example.com/phones/iphone13mini_1.jpg",
+      "https://example.com/phones/iphone13mini_2.jpg"
+    ],
+    "rating": 4.5,
+    "price": 69999
+  }
+]
+ },
+  { "categoryId": 5, "items":[
+  {
+    "id": 1,
+    "title": "Modern Grey Sofa",
+    "name": "Urban Grey 3-Seater Sofa",
+    "image": "https://images.unsplash.com/photo-1530845640031-56d8be5f72d3",
+    "images": [
+      "https://images.unsplash.com/photo-1530845640031-56d8be5f72d3",
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f"
+    ],
+    "rating": 4.7,
+    "price": 25999
+  },
+  {
+    "id": 2,
+    "title": "Wooden Dining Chair",
+    "name": "Classic Oak Dining Chair",
+    "image": "https://images.unsplash.com/photo-0c8b9f1d5ab9",
+    "images": [
+      "https://images.unsplash.com/photo-0c8b9f1d5ab9",
+      "https://images.unsplash.com/photo-1567016525020-31a52c9a18a5"
+    ],
+    "rating": 4.4,
+    "price": 3499
+  },
+  {
+    "id": 3,
+    "title": "Glass Coffee Table",
+    "name": "ClearView Coffee Table",
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
+    "images": [
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb",
+      "https://images.unsplash.com/photo-1503342452485-86a5d56a5585"
+    ],
+    "rating": 4.5,
+    "price": 7999
+  },
+  {
+    "id": 4,
+    "title": "King Size Bed",
+    "name": "DreamComfort King Bed",
+    "image": "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+    "images": [
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+      "https://images.unsplash.com/photo-1598928506311-6e5b618d6173"
+    ],
+    "rating": 4.6,
+    "price": 17999
+  },
+  {
+    "id": 5,
+    "title": "Recliner Armchair",
+    "name": "LazyLux Recliner Sofa",
+    "image": "https://images.unsplash.com/photo-1520975594686-4d8ecf77b8fe",
+    "images": [
+      "https://images.unsplash.com/photo-1520975594686-4d8ecf77b8fe",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    ],
+    "rating": 4.3,
+    "price": 8999
+  },
+  {
+    "id": 6,
+    "title": "Study Desk",
+    "name": "ProStudy Writing Desk",
+    "image": "https://images.unsplash.com/photo-1503342455072-733f17b0ed63",
+    "images": [
+      "https://images.unsplash.com/photo-1503342455072-733f17b0ed63",
+      "https://images.unsplash.com/photo-1550583724-b269a5d13b47"
+    ],
+    "rating": 4.2,
+    "price": 5499
+  },
+  {
+    "id": 7,
+    "title": "Wall‑Mounted Bookshelf",
+    "name": "ShelfSpace Wall Bookcase",
+    "image": "https://images.unsplash.com/photo-1533859583213-c4e1e86c4624",
+    "images": [
+      "https://images.unsplash.com/photo-1533859583213-c4e1e86c4624",
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f"
+    ],
+    "rating": 4.4,
+    "price": 6999
+  },
+  {
+    "id": 8,
+    "title": "Wooden Dining Table",
+    "name": "Family Oak Dining Table",
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f56",
+    "images": [
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f56",
+      "https://images.unsplash.com/photo-1584382296080-e3e18f6d94f2"
+    ],
+    "rating": 4.5,
+    "price": 11999
+  },
+  {
+    "id": 9,
+    "title": "Kids Bed",
+    "name": "BrightDream Kids Bed",
+    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d",
+    "images": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d",
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+    ],
+    "rating": 4.0,
+    "price": 7999
+  },
+  {
+    "id": 10,
+    "title": "Modern TV Unit",
+    "name": "SlimLine TV Stand",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b"
+    ],
+    "rating": 4.3,
+    "price": 6999
+  },
+  {
+    "id": 11,
+    "title": "Office Chair",
+    "name": "ErgoComfort Mesh Chair",
+    "image": "https://images.unsplash.com/photo-1602810319581-04c85d3a5bb1",
+    "images": [
+      "https://images.unsplash.com/photo-1602810319581-04c85d3a5bb1",
+      "https://images.unsplash.com/photo-1602810319445-612dacf7d500"
+    ],
+    "rating": 4.2,
+    "price": 3499
+  },
+  {
+    "id": 12,
+    "title": "Wooden Shoe Rack",
+    "name": "OrganizeIt Shoe Rack",
+    "image": "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+    "images": [
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f",
+      "https://images.unsplash.com/photo-1598928506311-6e5b618d6173"
+    ],
+    "rating": 4.1,
+    "price": 2999
+  },
+  {
+    "id": 13,
+    "title": "Corner Sofa Set",
+    "name": "CozyCorner L‑shaped Sofa",
+    "image": "https://images.unsplash.com/photo-1537832816519-689ad163238b",
+    "images": [
+      "https://images.unsplash.com/photo-1537832816519-689ad163238b",
+      "https://images.unsplash.com/photo-1520975594686-4d8ecf77b8fe"
+    ],
+    "rating": 4.6,
+    "price": 27999
+  },
+  {
+    "id": 14,
+    "title": "Nightstand Table",
+    "name": "BedSide Minimal Nightstand",
+    "image": "https://images.unsplash.com/photo-1503342452485-86a5d56a5585",
+    "images": [
+      "https://images.unsplash.com/photo-1503342452485-86a5d56a5585",
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+    ],
+    "rating": 4.2,
+    "price": 1999
+  },
+  {
+    "id": 15,
+    "title": "Recliner Sofa Chair",
+    "name": "ComfortSeat Recliner",
+    "image": "https://images.unsplash.com/photo-1593032457861-7d9a1a93a376",
+    "images": [
+      "https://images.unsplash.com/photo-1593032457861-7d9a1a93a376",
+      "https://images.unsplash.com/photo-1589984663980-7c1de39da7cd"
+    ],
+    "rating": 4.4,
+    "price": 10999
+  },
+  {
+    "id": 16,
+    "title": "Wall Mirror with Shelf",
+    "name": "Reflecto Shelf Mirror",
+    "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
+    "images": [
+      "https://images.unsplash.com/photo-1523381210434-271e8be1f52b",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+    ],
+    "rating": 4.1,
+    "price": 2499
+  },
+  {
+    "id": 17,
+    "title": "Wooden Wardrobe",
+    "name": "SpaceSaver Wardrobe 3‑Door",
+    "image": "https://images.unsplash.com/photo-1503342455072-733f17b0ed63",
+    "images": [
+      "https://images.unsplash.com/photo-1503342455072-733f17b0ed63",
+      "https://images.unsplash.com/photo-1550583724-b269a5d13b47"
+    ],
+    "rating": 4.5,
+    "price": 14999
+  },
+  {
+    "id": 18,
+    "title": "Plastic Patio Chair",
+    "name": "EasySit Patio Chair",
+    "image": "https://images.unsplash.com/photo-1584382296080-e3e18f6d94f2",
+    "images": [
+      "https://images.unsplash.com/photo-1584382296080-e3e18f6d94f2",
+      "https://images.unsplash.com/photo-1576566588028-4147f3842f56"
+    ],
+    "rating": 4.0,
+    "price": 1299
+  },
+  {
+    "id": 19,
+    "title": "Glass Side Table",
+    "name": "ClearView Side Table",
+    "image": "https://images.unsplash.com/photo-1550583724-b269a5d13b47",
+    "images": [
+      "https://images.unsplash.com/photo-1550583724-b269a5d13b47",
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb"
+    ],
+    "rating": 4.2,
+    "price": 2999
+  },
+  {
+    "id": 20,
+    "title": "Recliner Leather Sofa",
+    "name": "RoyalLeather Recliner Sofa",
+    "image": "https://images.unsplash.com/photo-1598928506311-6e5b618d6173",
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-6e5b618d6173",
+      "https://images.unsplash.com/photo-1542060748-10c28b62716f"
+    ],
+    "rating": 4.8,
+    "price": 30999
+  }
+]
+ }
 ]
