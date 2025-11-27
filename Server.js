@@ -22,7 +22,7 @@ try {
 
 // GET all categories
 app.get("/api/category", (req, res) => {
-  res.json({ success: true, categories });
+  res.json({ success: true, });
 });
 
 // GET items by category id or name
