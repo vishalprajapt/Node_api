@@ -52,6 +52,30 @@ app.get("/api/category/:identifier", (req, res) => {
   });
 });
 
+
+app.get("/api/:categoryId/:itemId", (req, res) => {
+  const categoryId = Number(req.params.categoryId);
+  const itemId = Number(req.params.itemId);
+
+  const category = items.find(cat => cat.categoryId === categoryId);
+
+  if (!category) {
+    return res.status(404).json({ success: false, message: "Category not found" });
+  }
+
+  const item = category.items.find(i => i.id === itemId);
+
+  if (!item) {
+    return res.status(404).json({ success: false, message: "Item not found in this category" });
+  }
+
+  res.json({
+    success: true,
+    item
+  });
+});
+
+
 // Start server
 app.listen(5000, () => {
   console.log("Server running on port 5000");
